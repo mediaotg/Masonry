@@ -21,3 +21,6 @@ A simple masonry layout.
   
 4. Call the grid class when page ready.
   <br>` grid(); `
+  
+5. Position the container relative
+	`.grid{ position: relative; }`
