@@ -7,22 +7,29 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="grid.js"></script>
 		<style>
+			.wrapper{
+				width: calc(100% - 100px);
+				max-width: 1400px;	
+				margin: 30px auto;
+			}
 			.grid{
 				position: relative;
 			}
 		</style>
 	</head>
 	<body>
-		<h1>Masonry Grid Layout</h1>
-		<p>A simple masonry grid layout for when masonry.js doesnt do the trick. Based on 6 column grid. I hope this helps you.</p>
-		<div class="grid">
-			<img src="http://placehold.it/350x350"  data-width="2" data-height="2" class="grid-item" />
-			<img src="http://placehold.it/350x700"  data-width="2" data-height="4" class="grid-item" />
-			<img src="http://placehold.it/350x350"  data-width="2" data-height="2" class="grid-item" />
-			<img src="http://placehold.it/350x350"  data-width="2" data-height="2" class="grid-item" />
-			<img src="http://placehold.it/350x525"  data-width="2" data-height="3" class="grid-item" />
-			<img src="http://placehold.it/700x350"  data-width="4" data-height="2" class="grid-item" />
-			<img src="http://placehold.it/350x175"  data-width="2" data-height="1" class="grid-item" />
+		<div class="wrapper">
+			<h1>Masonry Grid Layout</h1>
+			<p>A simple masonry grid layout for when masonry.js doesnt do the trick. Based on 6 column grid. I hope this helps you.</p>
+			<div class="grid">
+				<img src="http://placehold.it/350x350"  data-width="2" data-height="2" class="grid-item" />
+				<img src="http://placehold.it/350x700"  data-width="2" data-height="4" class="grid-item" />
+				<img src="http://placehold.it/350x350"  data-width="2" data-height="2" class="grid-item" />
+				<img src="http://placehold.it/350x350"  data-width="2" data-height="2" class="grid-item" />
+				<img src="http://placehold.it/350x525"  data-width="2" data-height="3" class="grid-item" />
+				<img src="http://placehold.it/700x350"  data-width="4" data-height="2" class="grid-item" />
+				<img src="http://placehold.it/350x175"  data-width="2" data-height="1" class="grid-item" />
+			</div>
 		</div>
 
 		<script type="text/javascript">
