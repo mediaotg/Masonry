@@ -1,7 +1,7 @@
 # Masonry
 A simple masonry layout.
 
-# Usage
+## Usage
 1. Add Jquery and Grid.js to your page
 2. Add wrapper div with class grid
   `<div class="grid"></div>`
