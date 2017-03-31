@@ -23,4 +23,4 @@ A simple masonry layout.
   <br>` grid(); `
   
 5. Position the container relative
-	`.grid{ position: relative; }`
+  <br>`.grid{ position: relative; }`
